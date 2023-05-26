@@ -18,29 +18,28 @@
 
 # 概要
 
-MC Particle Proは、Minecraftで使用するコマンドとして書き出すことを目的としたBlenderのアドオンです。
-エクスポートは、主にオブジェクト情報、メッシュオブジェクトの頂点情報、FONTオブジェクトのテキストを使用して行われます。
-(他にも頂点グループ、オブジェクト名、マテリアル名、オブジェクトのプロパティ等)
-始めはパーティクルの位置等を立体的かつ直感的に操作することを目的として製作されましたが、
-設定次第で座標操作を使用するコマンド(例:executeやsetblock、fill、playsound等)を代わりに書き出す事も出来ます。
-コマンドの書き出しは、クリップボードか.mcfunctionのどちらかを選択することができます。
-.mcfunctionのみ対応ですが、アニメーションの書き出しも可能です。
-これによりマインクラフトのデータパックを使った演出面などの作成に役立ち、制作の簡略化が可能になります。
-
+MC Particle Proは、Minecraftで使用するコマンドとして書き出すことを目的としたBlenderのアドオンです。<br>
+エクスポートは、主にオブジェクト情報、メッシュオブジェクトの頂点情報、FONTオブジェクトのテキストを使用して行われます。<br>
+(他にも頂点グループ、オブジェクト名、マテリアル名、オブジェクトのプロパティ等)<br>
+始めはパーティクルの位置等を立体的かつ直感的に操作することを目的として製作されましたが、<br>
+設定次第で座標操作を使用するコマンド(例:executeやsetblock、fill、playsound等)を代わりに書き出す事も出来ます。<br>
+コマンドの書き出しは、クリップボードか.mcfunctionのどちらかを選択することができます。<br>
+.mcfunctionのみ対応ですが、アニメーションの書き出しも可能です。<br>
+これによりマインクラフトのデータパックを使った演出面などの作成に役立ち、制作の簡略化が可能になります。<br>
 
 
 
 ## ご購入ページ
 
-[gumroad.com](https://anminmakura.gumroad.com/l/mc_particle_pro)
-購入後の画面にてダウンロードするをクリックすることで、「MC_Particle_pro_x_x_x_x.py」を入手することができます。
+[gumroad.com](https://anminmakura.gumroad.com/l/mc_particle_pro)<br>
+購入後の画面にてダウンロードするをクリックすることで、「MC_Particle_pro_x_x_x_x.py」を入手することができます。<br>
 
 
 
 ## インストール方法
 
-現在MC Particle Proはシンプルなアドオンで、.pyファイルの1つだけで構成されています。インストールには通常のBlenderアドオンのインストール方法を使用します。
-
+現在MC Particle Proはシンプルなアドオンで、.pyファイルの1つだけで構成されています。インストールには通常のBlenderアドオンのインストール方法を使用します。<br>
+<br>
 - Blenderを起動し、環境設定からアドオンメニューに移動します。
 - 画面の右上にある「インストール」を押し、解凍したMC_Particle_pro_(version).pyを選択してインストールします。
 - アドオン一覧からMC Particle Proを探し、チェックボックスをオンにします。
@@ -49,35 +48,31 @@ MC Particle Proは、Minecraftで使用するコマンドとして書き出す�
 
 ## 使い方
 
-MC Particle Proは3DViewに追加されるアドオンのパネルで操作します。パネルはNキーで表示・非表示が切り替えられます。
-
+MC Particle Proは3DViewに追加されるアドオンのパネルで操作します。パネルはNキーで表示・非表示が切り替えられます。<br>
+<br>
 - パーティクルコマンドの種類やパラメーターを設定します。
 - エクスポートしたいオブジェクトを選択します。
 - オブジェクトの頂点情報やマテリアル情報などを取得します。
 - クリップボードに書き出すか、.mcfunctionとして書き出すかを選択します。
 - Blenderの開始・終了のフレームの間のオブジェクトのアニメーションをフレーム単位で書き出すこともできます。
-
-詳細な使い方は[こちら](https://www.youtube.com/watch?v=xxxxxx)の動画をご覧ください。
-(動画はまだないです)
+<br>
+詳細な使い方は[こちら](https://www.youtube.com/watch?v=xxxxxx)の動画をご覧ください。<br>
+(動画はまだないです)<br>
 
 
 ## お詫びと注意事項
 
-.mcfunctionやdatapack等の管理や仕様の把握、また内部のexecuteコマンドを使っての複雑な条件付け等は各使用者に委ねています。
-上記の件について私は一切助言等は出来ないので予めご了承ください。
-
-
-
+.mcfunctionやdatapack等の管理や仕様の把握、また内部のexecuteコマンドを使っての複雑な条件付け等は各使用者に委ねています。<br>
+上記の件について私は一切助言等は出来ないので予めご了承ください。<br>
+<br>
 ### Blender Support Version
-Currently the supported and confirmed working Blender versions are 3.4.0 to 3.5.0.
-
+Currently the supported and confirmed working Blender versions are 3.4.0 to 3.5.0.<br>
 
 
 ## License
 
 [![License: GNU v3](https://img.shields.io/badge/License-GNUv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.html)
-
-
-MC Particle Pro Addon (C) 2023 anminmakura
-Created by anminmakura
-License : GNU General Public License version3
+<br>
+MC Particle Pro Addon (C) 2023 anminmakura<br>
+Created by anminmakura<br>
+License : GNU General Public License version3<br>
