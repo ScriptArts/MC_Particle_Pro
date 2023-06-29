@@ -66,7 +66,7 @@ MC Particle Proは3DViewに追加されるアドオンのパネルで操作し�
 上記の件について私は一切助言等は出来ないので予めご了承ください。<br>
 <br>
 ### Blender Support Version
-Currently the supported and confirmed working Blender versions are 3.4.0 to 3.5.0.<br>
+Currently the supported and confirmed working Blender versions are 3.4.x to 3.6.x.<br>
 
 
 ## License
